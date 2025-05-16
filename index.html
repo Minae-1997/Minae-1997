@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Name - Portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -12,12 +13,10 @@
     <header>
         <div class="container">
             <nav>
-                <div class="logo">プププランド</div>
+                <div class="logo">わがやのグリーン</div>
                 <ul class="nav-links">
                     <li><a href="#hero">トップ</a></li>
-                    <li><a href="#about">キャラクター</a></li>
-                    <li><a href="#projects">ゲーム</a></li>
-                    <li><a href="#contact">アクセス</a></li>
+                    <li><a href="#projects">紹介</a></li>
                 </ul>
                 <div class="hamburger">
                     <i class="fas fa-bars"></i>
@@ -31,79 +30,40 @@
         <div class="container">
             <div class="hero-content">
                 <div class="hero-text">
-                    <h1><span>プププランドへようこそ！</span></h1>
-                    <p>プププランドって知ってる？知らない人も知ってる人も楽しんでいってね！</p>
-                    <a href="#projects" class="btn">ゲームについて</a>
-                    <a href="#contact" class="btn btn-outline">アクセス</a>
+                    <h1>
+                    <span>ようこそ、</span><br>
+                    <span>わが家のグリーン</span>
+                    </h1>
+                    <p>載ってる写真は決してわが家のものではないけど、</p>
+                    <p>わが家にいる植物を少し紹介します。</p>
                 </div>
                 <div class="hero-image">
-                    <img src="/api/placeholder/500/500" alt="Your Photo">
+                    
                 </div>
             </div>
         </div>
     </section>
-
-    <!-- About Section -->
-    <section id="about">
-        <div class="container">
-            <div class="section-title">
-                <h2>キャラクター</h2>
-                <p>仲間を紹介するね！</p>
-            </div>
-            <div class="about-content">
-                <div class="about-image">
-                    <img src="/api/placeholder/500/400" alt="About Image">
-                </div>
-                <div class="about-text">
-                    <h3>Who I Am</h3>
-                    <p>I'm a passionate web developer with a strong foundation in both front-end and back-end technologies. With X years of experience in the industry, I've had the opportunity to work on diverse projects that have honed my skills and expanded my knowledge.</p>
-                    <p>My approach to development combines technical expertise with creativity, allowing me to build solutions that are not only functional but also visually appealing and user-friendly.</p>
-                    <h3>My Skills</h3>
-                    <div class="skills">
-                        <span class="skill">HTML5</span>
-                        <span class="skill">CSS3</span>
-                        <span class="skill">JavaScript</span>
-                        <span class="skill">React.js</span>
-                        <span class="skill">Node.js</span>
-                        <span class="skill">MongoDB</span>
-                        <span class="skill">Git</span>
-                        <span class="skill">Responsive Design</span>
-                        <span class="skill">UI/UX</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- Projects Section -->
     <section id="projects">
         <div class="container">
             <div class="section-title">
-                <h2>My Projects</h2>
-                <p>Check out some of my recent work</p>
+                <h2>紹介</h2>
+                <p>一部紹介します！</p>
             </div>
             <div class="projects-grid">
                 <!-- Project 1 -->
                 <div class="project-card">
                     <div class="project-image">
-                        <img src="/api/placeholder/400/300" alt="Project 1">
+                        <img src="images/potos.jpg" alt="Project 1">
                     </div>
                     <div class="project-info">
-                        <h3>Project One</h3>
-                        <p>A responsive e-commerce platform built with React and Node.js, featuring user authentication, product filtering, and payment integration.</p>
+                        <h3>ポトス</h3>
+                        <p>会社にも置いてあるポトスの親株です。水が足りてないとあからさまにしょぼくれるので分かりやすく、初心者でも育てやすいです。</p>
                         <div class="project-tags">
-                            <span class="project-tag">React</span>
-                            <span class="project-tag">Node.js</span>
-                            <span class="project-tag">MongoDB</span>
-                            <span class="project-tag">Express</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="#" class="project-link">
-                                <i class="fab fa-github"></i> Source Code
-                            </a>
-                            <a href="#" class="project-link">
-                                <i class="fas fa-external-link-alt"></i> Live Demo
-                            </a>
+                            <span class="project-tag">耐陰性あり</span>
+                            <span class="project-tag">室内OK</span>
+                            <span class="project-tag">育てやすい</span>
+                            
                         </div>
                     </div>
                 </div>
@@ -111,125 +71,48 @@
                 <!-- Project 2 -->
                 <div class="project-card">
                     <div class="project-image">
-                        <img src="/api/placeholder/400/300" alt="Project 2">
+                        <img src="images/gajyu.jpg" alt="Project 2">
                     </div>
                     <div class="project-info">
-                        <h3>Project Two</h3>
-                        <p>A social media dashboard that visualizes user engagement metrics using D3.js, with real-time updates and customizable views.</p>
+                        <h3>ガジュマル</h3>
+                        <p>8年ぐらい前から飼ってる子です。とても丈夫で、家に差し込む西陽で数多の植物がやられましたが、このガジュマルは平気な顔をしています。</p>
                         <div class="project-tags">
-                            <span class="project-tag">JavaScript</span>
-                            <span class="project-tag">D3.js</span>
-                            <span class="project-tag">Firebase</span>
-                            <span class="project-tag">CSS Grid</span>
+                            <span class="project-tag">室内OK</span>
+                            <span class="project-tag">育てやすい</span>
+                        
                         </div>
-                        <div class="project-links">
-                            <a href="#" class="project-link">
-                                <i class="fab fa-github"></i> Source Code
-                            </a>
-                            <a href="#" class="project-link">
-                                <i class="fas fa-external-link-alt"></i> Live Demo
-                            </a>
-                        </div>
+                        
+                        
                     </div>
                 </div>
 
                 <!-- Project 3 -->
                 <div class="project-card">
                     <div class="project-image">
-                        <img src="/api/placeholder/400/300" alt="Project 3">
+                        <img src="images/hime.jpg" alt="Project 3">
                     </div>
                     <div class="project-info">
-                        <h3>Project Three</h3>
-                        <p>A weather application that provides detailed forecasts and historical data, with location-based services and interactive maps.</p>
+                        <h3>ヒメモンステラ</h3>
+                        <p>よく見るモンステラとは少し違って、葉っぱが小さめに育ちます。この子も頑丈で私の雑な育成に耐えて育ってくれています。</p>
                         <div class="project-tags">
-                            <span class="project-tag">HTML5</span>
-                            <span class="project-tag">CSS3</span>
-                            <span class="project-tag">JavaScript</span>
-                            <span class="project-tag">API Integration</span>
+                            <span class="project-tag">耐陰性有り</span>
+                            <span class="project-tag">室内OK</span>
+                            <span class="project-tag">育てやすい</span>
                         </div>
-                        <div class="project-links">
-                            <a href="#" class="project-link">
-                                <i class="fab fa-github"></i> Source Code
-                            </a>
-                            <a href="#" class="project-link">
-                                <i class="fas fa-external-link-alt"></i> Live Demo
-                            </a>
-                        </div>
+                       
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
-    <!-- Contact Section -->
-    <section id="contact">
-        <div class="container">
-            <div class="section-title">
-                <h2>Contact Me</h2>
-                <p>Get in touch for collaborations or inquiries</p>
-            </div>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <h3>Let's Talk</h3>
-                    <p>Feel free to reach out if you're looking for a developer, have a question, or just want to connect.</p>
-                    <div class="contact-item">
-                        <i class="fas fa-envelope"></i>
-                        <a href="mailto:your.email@example.com">your.email@example.com</a>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-phone"></i>
-                        <a href="tel:+1234567890">+1 (234) 567-890</a>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <span>Your City, Country</span>
-                    </div>
-                    <div class="social-links">
-                        <a href="#" class="social-link">
-                            <i class="fab fa-github"></i>
-                        </a>
-                        <a href="#" class="social-link">
-                            <i class="fab fa-linkedin-in"></i>
-                        </a>
-                        <a href="#" class="social-link">
-                            <i class="fab fa-twitter"></i>
-                        </a>
-                        <a href="#" class="social-link">
-                            <i class="fab fa-instagram"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="contact-form">
-                    <form id="contactForm">
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Your Name" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" class="form-control" placeholder="Your Email" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Subject">
-                        </div>
-                        <div class="form-group">
-                            <textarea class="form-control" placeholder="Your Message" required></textarea>
-                        </div>
-                        <button type="submit" class="btn">Send Message</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- Footer -->
     <footer>
         <div class="container">
             <div class="footer-content">
                 <p>&copy; 2025 Your Name. All rights reserved.</p>
                 <div class="footer-links">
-                    <a href="#hero">Home</a>
-                    <a href="#about">About</a>
-                    <a href="#projects">Projects</a>
-                    <a href="#contact">Contact</a>
+                    <a href="#hero">トップ</a>
+                    <a href="#projects">紹介</a>
                 </div>
             </div>
         </div>

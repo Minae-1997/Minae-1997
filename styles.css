@@ -1,7 +1,7 @@
 
         :root {
-            --primary-color: #ff9f4b;
-            --secondary-color: #1e1e2c;
+            --primary-color: #3e3131;
+            --secondary-color: #ffffff;
             --text-color: #333;
             --light-color: #f4f4f4;
             --dark-color: #333;
@@ -15,7 +15,7 @@
         }
         
         body {
-            font-family:"Hiragino Maru Gothic Pro", "ヒラギノ丸ゴ Pro W4", "Yu Gothic", "游ゴシック", sans-serif ;
+            font-family: 'Noto Sans JP', "Yu Gothic", "游ゴシック", sans-serif;
             line-height: 1.6;
             color: var(--text-color);
             background-color: #f9f9f9;
@@ -68,7 +68,7 @@
         }
         
         .nav-links a {
-            color: var(--secondary-color);
+            color: var(---primary-color);
             font-weight: 500;
             transition: var(--transition);
         }
@@ -85,17 +85,24 @@
         
         /* Hero Section */
         #hero {
-            height: 100vh;
+            height: 80vh;
+             background-image: url("images/hero.png"); 
             display: flex;
             align-items: center;
+            background-repeat: no-repeat;
             padding-top: 80px;
-            background: linear-gradient(135deg, #fff3d8 0%, #fff3d8 100%);
+            /* background: linear-gradient(135deg, #fff3d8 0%, #fff3d8 100%); */
         }
         
         .hero-content {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
+            position: absolute;
+            top: 50%;
+            left: 5%;
+            transform: translateY(-65%);
+            max-width: 800px;
+            padding: 2rem;
+            text-align: left;
+            line-height: 1.4;
         }
         
         .hero-text {
@@ -105,19 +112,20 @@
         
         .hero-text h1 {
             font-size: 48px;
-            margin-bottom: 20px;
+            margin-bottom: 40px;
             color: var(--secondary-color);
         }
         
         .hero-text h1 span {
-            color: var(--primary-color);
+            color: var(--secondary-color);
         }
         
         .hero-text p {
             font-size: 18px;
             margin-bottom: 30px;
-            color: #666;
+            color: #ffffff;
             max-width: 600px;
+            line-height: 0;
         }
         
         .btn {
@@ -177,7 +185,7 @@
         
         .section-title h2 {
             font-size: 36px;
-            color: var(--secondary-color);
+            color: var(--primary-color);
             margin-bottom: 20px;
         }
         
@@ -294,7 +302,7 @@
         .project-info h3 {
             font-size: 22px;
             margin-bottom: 10px;
-            color: var(--secondary-color);
+            color: var(--primary-color);
         }
         
         .project-info p {
@@ -309,7 +317,7 @@
         }
         
         .project-tag {
-            background-color: #f4f4f4;
+            background-color: #c0c0c0;
             padding: 5px 10px;
             border-radius: 30px;
             margin-right: 10px;
@@ -445,7 +453,7 @@
         
         /* Footer */
         footer {
-            background-color: var(--secondary-color);
+            background-color: var(--primary-color);
             color: #fff;
             padding: 40px 0;
             text-align: center;
